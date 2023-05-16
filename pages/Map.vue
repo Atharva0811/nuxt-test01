@@ -21,7 +21,7 @@
   </div>
 </template>
 
-<script setup lang="ts">
+<script setup>
 if (process.client) {
 
   var map = L.map('map').setView([18.5093, 73.8551], 15);
